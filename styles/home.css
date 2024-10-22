@@ -1,0 +1,23 @@
+@import url("../globals.css");
+
+.container_head {
+
+    display: grid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.container_head img {
+    width: 400px;
+    height: 600px;
+    display: block;
+}
+
+
+.container_head_wrap p {
+
+    text-align: left;
+}
