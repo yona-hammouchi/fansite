@@ -1,0 +1,21 @@
+
+
+h1{
+    font-family: "Shrikhand", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+    border: 2px solid transparent;
+    padding: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    box-shadow: 10px 5px 5px #FFB0B0;
+    border-radius: 5px;
+
+}
+
+
+header{
+    background-color: #FFB0B0;
+}
