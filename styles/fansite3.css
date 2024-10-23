@@ -13,6 +13,8 @@
 
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 16px;
+
+    z-index: 300;
 }
 
 .groupedButton a {
@@ -24,39 +26,53 @@
     cursor: pointer;
 }
 
-.container_page_head {
-    position: relative;
-    text-align: center;
-    margin-top: 20px;
-}
-
-.section {
-    position: relative;
-    width: 100%;
-}
-
-.image-header {
-    width: 900px;
-    height: 500px;
+hr {
+    width: 85%;
+    height: 1px;
+    background-color: lightgray;
+    border: none;
 }
 
 .container_page_image {
-    position: absolute;
-    margin-bottom: 20px;
+    width: 80%;
+    margin-left: 10%;
 
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 80px;
-    border-radius: 8px;
-    max-width: 80%;
+    height: 600px;
+    overflow: hidden;
+    margin-top: 40px;
 }
 
-.text-container {
+.container_page_image img {
+    width: 100%;
+}
+
+.container_page_text {
+    background-color: var(--color-white);
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    padding: 40px;
     position: relative;
-    max-width: 800px;
-    background-color: white;
-    margin: -60px auto 0 auto;
+    top: -140px;
+}
+
+.container_page_text h1,
+p {
+    font-family: var(--font-main);
+}
+
+.container_page_text h1 {
+    margin-bottom: 20px;
+    font-size: 3rem;
+
+}
+
+.video-section {
+    background-color: red;
     padding: 20px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+}
+
+video {
+    border-radius: 10px;
+
 }
