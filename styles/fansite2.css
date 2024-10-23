@@ -1,7 +1,12 @@
 @import url("../globals.css");
 
+
+body{
+    background-color:blanchedalmond;
+}
 .img-japon {
     display: flex;
+    margin: 0% auto;   
 }
 
 .titre{
@@ -12,7 +17,29 @@
     background-color: white;
     padding: 10px;
     border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
+
+.article{
+    padding-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+    
+}
+
+.article1{
+    padding: 10px;
+    background-color: white;
+    width: 1000px;
+    border-radius: 5px;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    margin-left: 250px;
+}
+
+
 
 
     
