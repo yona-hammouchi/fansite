@@ -3,3 +3,16 @@
 .img-japon {
     display: flex;
 }
+
+.titre{
+    font-size: 70px;
+    position: absolute;
+    top: 50%;
+    left: 37%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+
+    
