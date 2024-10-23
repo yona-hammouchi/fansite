@@ -10,16 +10,12 @@
     flex-direction: column;
     padding: 20px;
     margin: 20px;
-   
-
+  
 }
 
-.container_head img {
-
-}
 
 body { 
-
+    background-color: #FEFAE0;
     font-family: "Poppins", sans-serif;
 }
 
@@ -30,37 +26,49 @@ body {
     margin: 40px;
 }
 
-.container_head_left{
-    display: flex;
+
+/*Boite Guadeloupe*/
+
+.container_head_G {
+   
     align-items: center;
     margin: 60px;
     padding: 30px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    background-color: rgb(241, 222, 241) ;
 }
 
-.container_head_left img {
-    width: 700px;
+.container_head_G img {
+    width: 400px;
     height: 500px;
     
-  
-  
 }
 
-.container_head_left p {
 
+
+.container_head_G p h2 {
+
+    display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
     text-align: left;
     margin-left: 40px;
+    
   
 }
 
+/*Boite Japon*/
 
-.container_head_right {
+.container_head_J {
     display: flex;
     align-items: center ;
     flex-direction: row-reverse;
+    margin: 60px;
+    padding: 30px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
-.container_head_right p {
+.container_head_J p {
 
     justify-content: center;
     text-align: right;
@@ -68,11 +76,34 @@ body {
 
 }
 
-
-.container_head_right img {
-    width: 700px;
+.container_head_J img {
+    width: 400px;
     height: 500px;
    
 }
 
+/*Boite Grece*/
+
+.container_head_GR {
+    display: flex;
+    align-items: center;
+    margin: 60px;
+    padding: 30px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.container_head_GR img {
+    width: 400px;
+    height: 500px;
+    
+}
+
+
+.container_head_GR p {
+
+    justify-content: center;
+    text-align: left;
+    margin-left: 40px;
+  
+}
 
