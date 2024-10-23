@@ -18,14 +18,15 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: var(--font-main);
     color: var(--color-black);
+   
+
 }
 
 /* POUR LA NAVBAR */
 
 .en-tête {
-    background-color: var(--color-green);
+  
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -37,12 +38,30 @@
     width: 100%;
     padding: 10px;
     text-align: center;
+    font-family: var(--font-title);
+ 
+   
 }
+
+a {
+
+    text-decoration: none;
+    font-size: 3rem;
+
+    ;
+}
+
+a:hover{
+
+    color: var(--color-jaune_pastel);
+}
+
 
 .flex-container {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    font-family:var(--font-main);
 }
