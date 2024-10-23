@@ -37,6 +37,7 @@
     width: 100%;
     padding: 10px;
     text-align: center;
+    font-family: var(--font-title);
 }
 
 .flex-container {
