@@ -12,7 +12,6 @@ header {
     grid-template-columns: auto auto auto;
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 50%;
-
     position: absolute;
     top: 50%;
     left: 50%;
