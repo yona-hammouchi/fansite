@@ -5,7 +5,7 @@
 body {
    
       font-family: "Poppins", sans-serif;
-      background-color: cornflowerblue;
+      background-color: wheat;
 }
 
 h1 {
@@ -32,7 +32,7 @@ p {
 .accordion {
     box-sizing: border-box;
     display: flex;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", sans-serif;
     overflow: hidden;
     width: 100%;
    
@@ -94,7 +94,7 @@ p {
    .accordion-title,
   .accordion-select  {
       background-color: #ffffff;
-      color: #7f8787;
+      color: #312c2c;
       width: 100px;
       height: 100%;
       font-size: 20px;
@@ -125,7 +125,7 @@ p {
   } 
   
    .accordion-content {
-      background-color: #fa8989;
+      background-color: #00BFFF;
       color: #4b2828;
       height: 100%;
       margin-bottom: -340px;
