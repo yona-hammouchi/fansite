@@ -128,6 +128,7 @@ span {
     margin-top: 40px;
 }
 
-css : .spe iframe {
-    width: 30%px;
+.spe iframe {
+    width: 100%;
+    height: 300px;
 }
