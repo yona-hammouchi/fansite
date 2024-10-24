@@ -149,4 +149,15 @@ h1{
     align-items: center;
 }
 
+.tampon{
+    width: 300px;
+    height: 300px;
+}
+
+.tampon1{
+    display: flex;
+    justify-content: center;
+ 
+}
+
 
