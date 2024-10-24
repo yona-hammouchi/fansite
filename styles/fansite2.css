@@ -3,6 +3,10 @@
 
 body {
     background-color: white;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style:normal;
+    font-weight: bold;
 }
 
 .img-japon {
@@ -14,7 +18,7 @@ body {
     font-size: 70px;
     position: absolute;
     top: 50%;
-    left: 37%;
+    left: 40%;
     background-color: white;
     padding: 10px;
     border-radius: 30px;
@@ -32,8 +36,8 @@ body {
 
 
 .article2{
-    background-color: ivory;
-    padding: 10px;
+    margin-left: 100px;
+    padding-top: 150px;
     width: 500px;
     height: 700px;
     border-radius: 10px;
@@ -41,19 +45,44 @@ body {
 
 }
 
-.article3{
-    background-color: #91A4AB;
-    margin-left: 450px;
-    padding: 10px;
-    width: 1000px;
-    border-radius: 15px;
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+.article2 ul{
+    text-decoration: none;
+    margin-left: 15px;
 }
 
+.article3{
+    padding: 10px;
+    width: 500px;
+    height: 800px ;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    background-image: url(../assets/fansite2/background.png);
+   background-position: center;
+   background-size: auto ;
+   text-align: center;
+}
+
+.temple{
+    padding-right: 20px;
+    margin-left: 50px;
+    width: 900px;
+    height: 800px ;
+}
+
+.culture{
+    display: flex;
+}
+
+
 .article4{
-    background-color: #56677E;
-    margin-right: 250px;
+    background-color: white;
+    width: 500px;
+    height: 600px;
     margin-bottom: 50px;
+    margin-left: 50px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    text-align: left;
+    
     
 
 }
@@ -63,7 +92,7 @@ body {
     width: 1300px;
     height: 500px;
    margin-left: 100px;
-   background-color: ivory;
+   
 }
 
 .article2,
@@ -71,9 +100,9 @@ body {
     padding: 10px;
     width: 1000px;
     border-radius: 15px;
-    
-    
-    
+    background-image: url(../assets/fansite2/background.png);
+   background-position: center;
+   background-size: auto ;
 }
 
 .article1 h1,
@@ -86,8 +115,49 @@ padding-bottom: 30px;
 ;
 }
 
-.photo-ronde img{
-    display: flex;
-    border-radius: 50%;
+.photo-ronde{
+   display: flex;
+   
 }
+.photo-ronde img{
+    height: 200px;
+    width: 150px;
+}
+
+
+.galerie0{
+    border-top-left-radius: 10px;
+}
+
+.galerie2{
+    border-bottom-left-radius: 10px;
+}
+
+.galerie{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+h1{
+        font-family: "Anton", sans-serif;
+        font-weight: 400;
+        font-style: normal; 
+}
+ 
+.video{
+    display: flex;
+    align-items: center;
+}
+
+.tampon{
+    width: 300px;
+    height: 300px;
+}
+
+.tampon1{
+    display: flex;
+    justify-content: center;
+ 
+}
+
 
