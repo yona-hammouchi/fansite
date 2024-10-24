@@ -5,7 +5,7 @@
 body {
    
       font-family: "Poppins", sans-serif;
-      background-color: wheat;
+      background-color:hwb(0 12% 86%);
 }
 
 h1 {
@@ -26,6 +26,7 @@ p {
 
   padding: 40px;
   margin: 40px;
+  color: blanchedalmond;
   
 }
 
@@ -35,6 +36,7 @@ p {
     font-family: "Poppins", sans-serif;
     overflow: hidden;
     width: 100%;
+    height: auto;
    
   }
   
@@ -46,12 +48,20 @@ p {
   }
   
   .accordion-title {
+    display: flex;
+    justify-content: start;
+    height: 10px;
     position: relative;
+    align-items: end;
+    box-sizing: border-box;
+    width: 30px;
+    font-weight: bolder;
+    font-size: 50px !important;
 
   }
   
   .accordion-title:not(:nth-last-child(2))::after {
-    border: 1px solid transparent;
+    border: 0px solid transparent;
     bottom: 0;
     content: "";
     left: 0;
@@ -61,12 +71,13 @@ p {
   }
   
   .accordion-title span {
-    bottom: 0px;
+    transform: rotate(-90deg); 
     box-sizing: border-box;
     display: block;
     position: absolute;
     white-space: nowrap;
     width: 100%;
+    
   }
   
   .accordion-content {
@@ -112,20 +123,18 @@ p {
   
    .accordion-select:hover + .accordion-title,
   .accordion-select:checked + .accordion-title {
-      background-color: #ffffff;
+     
   } 
   
-   .accordion-title span  {	
-      transform: rotate(-90deg);
-      -ms-writing-mode: lr-bt;
-      filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-      padding-bottom: 36px;
-      padding-top: 36px;
-      line-height: 71px;
+  .accordion-title span  {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-top: 0;
+  
   } 
   
    .accordion-content {
-      background-color: #00BFFF;
       color: #4b2828;
       height: 100%;
       margin-bottom: -340px;
@@ -133,3 +142,74 @@ p {
       padding: 15px;
       width: calc(100% - 497px);
   } 
+
+
+/* Jour 1 : */
+.jour-1 {
+  background-color: white; 
+  color: black;
+}
+.jour-1-title {
+  background-color: #A4D8E1; 
+  color: white;
+}
+
+/* Jour 2 : */
+.jour-2 {
+  background-color: white;
+  color: black;
+}
+.jour-2-title {
+  background-color: #A2D5AB;
+  color: white;
+}
+
+/* Jour 3 : */
+.jour-3 {
+  background-color: white; 
+  color: black;
+}
+.jour-3-title {
+  background-color: #F6D6A8;
+  color: white;
+}
+
+/* Jour 4 : */
+.jour-4 {
+  background-color: white; 
+  color: black;
+}
+.jour-4-title {
+  background-color: #FF9B8C;
+  color: white;
+}
+
+/* Jour 5  */
+.jour-5 {
+  background-color: white; 
+  color: white;
+}
+.jour-5-title {
+  background-color: #D81E5B; 
+  color: white;
+}
+
+/* Jour 6 */
+.jour-6 {
+  background-color: white; 
+  color: white;
+}
+.jour-6-title {
+  background-color: #E4B7E5; 
+  color: white;
+}
+
+/* Jour 7 : Beige Sable Fin (plus foncé pour le titre) */
+.jour-7 {
+  background-color: white; 
+  color: black;
+}
+.jour-7-title {
+  background-color: #E8D5B1 ; 
+  color: #ffffff;
+}
