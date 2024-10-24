@@ -12,6 +12,7 @@ h1 {
     display: flex;
     justify-content: center;
     padding: 20px;
+    color: wheat;
 }
 
 p { 
@@ -24,8 +25,8 @@ p {
 
 .introduction {
 
-  padding: 40px;
-  margin: 40px;
+  padding: 20px;
+  margin: 20px;
   color: blanchedalmond;
   
 }
@@ -36,7 +37,8 @@ p {
     font-family: "Poppins", sans-serif;
     overflow: hidden;
     width: 100%;
-    height: auto;
+    max-height: 800px;
+   
    
   }
   
@@ -56,7 +58,8 @@ p {
     box-sizing: border-box;
     width: 30px;
     font-weight: bolder;
-    font-size: 50px !important;
+    font-size: 40px !important;
+    padding: 15px;
 
   }
   
@@ -71,13 +74,13 @@ p {
   }
   
   .accordion-title span {
+    display: flex;
     transform: rotate(-90deg); 
     box-sizing: border-box;
     display: block;
-    position: absolute;
     white-space: nowrap;
     width: 100%;
-    
+    align-items: center;
   }
   
   .accordion-content {
@@ -123,7 +126,8 @@ p {
   
    .accordion-select:hover + .accordion-title,
   .accordion-select:checked + .accordion-title {
-     
+    background-color: hsl(216, 22%, 52%); 
+
   } 
   
   .accordion-title span  {
@@ -204,7 +208,7 @@ p {
   color: white;
 }
 
-/* Jour 7 : Beige Sable Fin (plus foncé pour le titre) */
+/* Jour 7 */
 .jour-7 {
   background-color: white; 
   color: black;
