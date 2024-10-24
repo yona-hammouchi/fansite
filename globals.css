@@ -18,16 +18,14 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
-
-
+    scroll-behavior: smooth;
 }
+
 
 
 /* POUR LA NAVBAR */
 
 .en-tête {
-
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -36,8 +34,9 @@
     background-color: #f47a42;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
     color: #07778b;
-
-
+    /* position: fixed;
+    top: 0;
+    width: 100%; */
 }
 
 .en-tête h1 {
@@ -46,22 +45,17 @@
     text-align: center;
     font-family: var(--font-title);
     font-size: 6rem;
-
 }
 
 a {
-
     text-decoration: none;
-
 }
 
 a:visited {
-
     color: var(--color-jaune_pastel);
 }
 
 a:hover {
-
     color: #07778b;
 }
 
@@ -73,5 +67,4 @@ a:hover {
     gap: 20px;
     margin-bottom: 20px;
     font-family: var(--font-main);
-
 }
