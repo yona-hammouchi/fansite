@@ -38,6 +38,10 @@ hr {
     height: 600px;
     overflow: hidden;
     margin-top: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
 }
 
 .container_page_image img {
@@ -82,7 +86,8 @@ span {
 
 .spe.road {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 40px;
     flex-wrap: wrap;
     margin-bottom: 60px;
     padding: 40px;
@@ -95,7 +100,7 @@ span {
 }
 
 .container_road_image {
-    width: 30%;
+    width: 300px;
     height: 400px;
     overflow: hidden;
     display: flex;
@@ -131,4 +136,90 @@ span {
 .spe iframe {
     width: 100%;
     height: 300px;
+    margin-bottom: 40px;
+}
+
+.final_text {
+    margin-bottom: 40px;
+}
+
+.final_text a {
+    color: lightsalmon !important;
+    font-weight: bold;
+}
+
+.final_text a:hover {
+    text-decoration: underline;
+}
+
+.spe.final h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* RESPONSIVE  */
+
+@media(max-width:1248px) {
+    .spe.road h1 {
+        text-align: center;
+    }
+}
+
+@media(max-width:980px) {
+    .spe {
+        width: 95%;
+        margin-left: 2.5%;
+    }
+
+    .container_page_text {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .container_road_text {
+        width: 100%;
+    }
+
+    .groupedButton {
+        width: 100%;
+        height: 130px;
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 10px;
+        justify-content: space-evenly;
+        padding: 0 20px;
+        bottom: 0;
+        left: 0;
+        top: 95%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 0;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    hr {
+        /* width: 1px;
+        height: 40px;
+        margin-top: 10px;
+        background-color: lightgray;
+        border: none; */
+        display: none;
+    }
+
+    .groupedButton a {
+        width: auto;
+        font-size: 30px;
+    }
+
+    .container_page_image img {
+        width: 180%;
+    }
+
+    .spe.final {
+        margin-bottom: 200px;
+    }
+
+    .spe.final p {
+        text-align: center;
+    }
 }
