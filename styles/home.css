@@ -86,7 +86,7 @@ body {
 .container_head_J p {
 
     justify-content: center;
-    text-align: right;
+    text-align: center;
     margin-right: 40px;
 
 }
@@ -95,6 +95,11 @@ body {
     width: 400px;
     height: 500px;
 
+}
+
+.japon-titre{
+    font-family: var(--font-title);
+    font-size: 70px
 }
 
 /*Boite Grece*/
