@@ -3,14 +3,13 @@
 
 
 .container_head {
-
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    padding: 20px;
-    margin: 20px;
-
+    flex-wrap: wrap;
+    padding: 80px;
+    /* gap: 120px; */
 }
 
 
@@ -21,118 +20,63 @@ body {
 
 
 .introduction {
-
     display: flex;
-    margin: 60px;
-    padding: 30px;
-    height: 400px;
+    margin: 60px 30px;
     justify-content: center;
     align-items: end;
-    background-color: transparent;
-}
-
-
-/*Boite Guadeloupe*/
-
-.container_head_G {
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
-    margin: 60px;
-    padding: 0px;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-    background-color: mistyrose;
-
-}
-
-.container_head_G img {
-    width: 400px;
-    height: 500px;
-
+    text-align: center;
 }
 
 .container_head h2 {
-
     display: flex;
     justify-content: center;
     margin: 20px;
     padding: 20px;
 }
 
-.container_head_G p {
+/*Boite Guadeloupe*/
 
-    justify-content: center;
-    text-align: left;
-    margin-right: 40px;
-    padding: 0px;
+.container_head_G {
+    width: 100%;
 
-}
-
-/*Boite Japon*/
-
-.container_head_J {
     display: flex;
     align-items: center;
-    flex-direction: row-reverse;
-    margin: 60px;
-    padding: 0px;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-    background-color: hsl(147, 100%, 91%);
+    justify-content: space-between;
+    flex-wrap: wrap;
 
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    background-color: mistyrose;
+
+    margin-bottom: 120px;
 }
 
-.container_head_J p {
+.imgG {
+    width: 400px;
+    height: 500px;
 
+    display: flex;
     justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.imgG img {
+    width: 100%;
+}
+
+.textG {
+    width: 60%;
+}
+
+.textG p {
+    padding: 20px;
     text-align: center;
-    margin-right: 40px;
-
-}
-
-.container_head_J img {
-    width: 400px;
-    height: 500px;
-
-}
-
-.japon-titre{
-    font-family: var(--font-title);
-    font-size: 70px
-}
-
-/*Boite Grece*/
-
-.container_head_GR {
-    display: flex;
-    align-items: center;
-    margin: 60px;
-    padding: 0px;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-    background-color: #d9d9fcfb;
-}
-
-.container_head_GR img {
-    width: 400px;
-    height: 500px;
-
-}
-
-
-.container_head_GR p {
-
-    justify-content: center;
-    text-align: left;
-    margin-left: 40px;
-
 }
 
 footer {
     padding: 20px;
     background-color: #f47a42;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
 }
 
 footer img {
@@ -159,14 +103,27 @@ span img {
     width: 50px;
 }
 
-.logoM {
-    margin-left: 350px;
-}
-
-.logoY {
-    margin-right: 150px;
-}
-
 .container_head a {
     color: hsl(0, 11%, 31%);
+}
+
+@media(max-width:1050px) {
+    .textG {
+        width: 100%;
+    }
+
+    .imgG {
+        width: 100%;
+    }
+}
+
+@media(max-width:980px) {
+    footer {
+        padding: 0;
+    }
+
+    footer h1 {
+        font-size: 2rem;
+    }
+
 }
