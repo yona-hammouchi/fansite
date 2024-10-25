@@ -5,12 +5,14 @@
 body {
    
       font-family: "Poppins", sans-serif;
+      background-color:hwb(0 12% 86%);
 }
 
 h1 {
     display: flex;
     justify-content: center;
     padding: 20px;
+    color: wheat;
 }
 
 p { 
@@ -19,4 +21,199 @@ p {
  margin: auto;
  padding: auto;
 
+}
+
+.introduction {
+
+  padding: 20px;
+  margin: 20px;
+  color: blanchedalmond;
+  
+}
+
+.accordion {
+    box-sizing: border-box;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    overflow: hidden;
+    width: 100%;
+    max-height: 800px;
+   
+   
+  }
+  
+  .accordion-select {
+    cursor: pointer;
+    margin: 0;
+    opacity: 0;
+    z-index: 1;
+  }
+  
+  .accordion-title {
+    display: flex;
+    justify-content: start;
+    height: 10px;
+    position: relative;
+    align-items: end;
+    box-sizing: border-box;
+    width: 30px;
+    font-weight: bolder;
+    font-size: 40px !important;
+    padding: 15px;
+
+  }
+  
+  .accordion-title:not(:nth-last-child(2))::after {
+    border: 0px solid transparent;
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .accordion-title span {
+    display: flex;
+    transform: rotate(-90deg); 
+    box-sizing: border-box;
+    display: block;
+    white-space: nowrap;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .accordion-content {
+    box-sizing: border-box;
+    overflow: auto;
+    position: relative;
+    transition: margin 0.3s ease 0.1s;
+  }
+  
+  .accordion-select:checked + .accordion-title + .accordion-content {
+    margin-bottom: 0;
+    margin-right: 0;
+  }
+  
+  /* L'aspect de mon accordéon */ 
+  
+   .accordion {
+      border-color: #f29109;
+      border-style: solid;
+      border-width: 0px;
+      flex-direction: row;
+      height: 1050px;
+  } 
+  
+   .accordion-title,
+  .accordion-select  {
+      background-color: #ffffff;
+      color: #312c2c;
+      width: 100px;
+      height: 100%;
+      font-size: 20px;
+  }
+  
+  .accordion-select {
+      margin-bottom: -65px;
+      margin-right: -71px;
+  }
+  
+  .accordion-title:not(:nth-last-child(2))::after {
+      border-bottom-color: transparent;
+      border-right-color: rgb(223, 162, 162);
+  } 
+  
+   .accordion-select:hover + .accordion-title,
+  .accordion-select:checked + .accordion-title {
+    background-color: hsl(216, 22%, 52%); 
+
+  } 
+  
+  .accordion-title span  {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-top: 0;
+  
+  } 
+  
+   .accordion-content {
+      color: #4b2828;
+      height: 100%;
+      margin-bottom: -340px;
+      margin-right: calc(-1 * calc(100% - 497px));
+      padding: 15px;
+      width: calc(100% - 497px);
+  } 
+
+
+/* Jour 1 : */
+.jour-1 {
+  background-color: white; 
+  color: black;
+}
+.jour-1-title {
+  background-color: #A4D8E1; 
+  color: white;
+}
+
+/* Jour 2 : */
+.jour-2 {
+  background-color: white;
+  color: black;
+}
+.jour-2-title {
+  background-color: #A2D5AB;
+  color: white;
+}
+
+/* Jour 3 : */
+.jour-3 {
+  background-color: white; 
+  color: black;
+}
+.jour-3-title {
+  background-color: #F6D6A8;
+  color: white;
+}
+
+/* Jour 4 : */
+.jour-4 {
+  background-color: white; 
+  color: black;
+}
+.jour-4-title {
+  background-color: #FF9B8C;
+  color: white;
+}
+
+/* Jour 5  */
+.jour-5 {
+  background-color: white; 
+  color: white;
+}
+.jour-5-title {
+  background-color: #D81E5B; 
+  color: white;
+}
+
+/* Jour 6 */
+.jour-6 {
+  background-color: white; 
+  color: white;
+}
+.jour-6-title {
+  background-color: #E4B7E5; 
+  color: white;
+}
+
+/* Jour 7 */
+.jour-7 {
+  background-color: white; 
+  color: black;
+}
+.jour-7-title {
+  background-color: #E8D5B1 ; 
+  color: #ffffff;
 }

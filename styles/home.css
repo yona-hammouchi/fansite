@@ -10,11 +10,11 @@
     flex-direction: column;
     padding: 20px;
     margin: 20px;
-  
+
 }
 
 
-body { 
+body {
     background-color: #FEFAE0;
     font-family: "Poppins", sans-serif;
 }
@@ -23,55 +23,70 @@ body {
 .introduction {
 
     display: flex;
-    margin: 40px;
+    margin: 60px;
+    padding: 30px;
+    height: 400px;
+    justify-content: center;
+    align-items: end;
+    background-color: transparent;
 }
 
 
 /*Boite Guadeloupe*/
 
 .container_head_G {
-   
+
+    display: flex;
     align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
     margin: 60px;
-    padding: 30px;
+    padding: 0px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-    background-color: rgb(241, 222, 241) ;
+    background-color: mistyrose;
+
 }
 
 .container_head_G img {
     width: 400px;
     height: 500px;
-    
+
 }
 
-
-
-.container_head_G p h2 {
+.container_head h2 {
 
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.container_head_G p {
+
+    justify-content: center;
     text-align: left;
-    margin-left: 40px;
-    
-  
+    margin-right: 40px;
+    padding: 0px;
+
 }
 
 /*Boite Japon*/
 
 .container_head_J {
     display: flex;
-    align-items: center ;
+    align-items: center;
     flex-direction: row-reverse;
     margin: 60px;
-    padding: 30px;
+    padding: 0px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    background-color: hsl(147, 100%, 91%);
+
 }
+
 .container_head_J p {
 
     justify-content: center;
-    text-align: right;
+    text-align: center;
     margin-right: 40px;
 
 }
@@ -79,7 +94,12 @@ body {
 .container_head_J img {
     width: 400px;
     height: 500px;
-   
+
+}
+
+.japon-titre{
+    font-family: var(--font-title);
+    font-size: 70px
 }
 
 /*Boite Grece*/
@@ -88,14 +108,15 @@ body {
     display: flex;
     align-items: center;
     margin: 60px;
-    padding: 30px;
+    padding: 0px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    background-color: #d9d9fcfb;
 }
 
 .container_head_GR img {
     width: 400px;
     height: 500px;
-    
+
 }
 
 
@@ -104,6 +125,48 @@ body {
     justify-content: center;
     text-align: left;
     margin-left: 40px;
-  
+
 }
 
+footer {
+    padding: 20px;
+    background-color: #f47a42;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+footer img {
+    width: 100px;
+    height: 100px;
+}
+
+.children-logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h1 {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-family: var(--font-title);
+    font-size: 6rem;
+    color: #FEFAE0;
+}
+
+span img {
+    height: 50px;
+    width: 50px;
+}
+
+.logoM {
+    margin-left: 350px;
+}
+
+.logoY {
+    margin-right: 150px;
+}
+
+.container_head a {
+    color: hsl(0, 11%, 31%);
+}
