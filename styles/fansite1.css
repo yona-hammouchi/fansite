@@ -3,13 +3,14 @@
 
 body {
     font-family: "Poppins", sans-serif;
-    background-color: hwb(0 0% 100%);
+    background-color: #f9eeb8;
 }
 
 h1 {
     display: flex;
     justify-content: center;
     padding: 20px;
+    color: #312c2c;
 }
 
 p { 
@@ -19,9 +20,9 @@ p {
 }
 
 .introduction {
-    padding: 40px;
+    padding: 20px;
     margin: 40px;
-    color: #fff6d1;
+    color: #312c2c;
 }
 
 
@@ -42,19 +43,17 @@ p {
   margin: 0;
   opacity: 0;
   z-index: 1;
+  width: 100%;
 }
 
 .accordion-title {
   display: flex;
-  justify-content: start;
-  height: 10px;
+  justify-content: center;
   position: relative;
   align-items: end;
-  box-sizing: border-box;
-  width: 30px;
   font-weight: bolder;
   font-size: 40px !important;
-  padding: 15px;
+  padding: 20px;
 
 }
 
@@ -69,13 +68,15 @@ p {
 }
 
 .accordion-title span {
-  display: flex;
+  
   transform: rotate(-90deg); 
   box-sizing: border-box;
   display: block;
+  position: absolute;
   white-space: nowrap;
   width: 100%;
-  align-items: center;
+ 
+
 }
 
 .accordion-content {
@@ -83,6 +84,7 @@ p {
   overflow: auto;
   position: relative;
   transition: margin 0.3s ease 0.1s;
+  width: 100%;
 }
 
 .accordion-select:checked + .accordion-title + .accordion-content {
@@ -102,9 +104,8 @@ p {
 
  .accordion-title,
 .accordion-select  {
-    background-color: #ffffff;
-    color: #312c2c;
-    width: 100px;
+    
+    width: 70px;
     height: 100%;
     font-size: 20px;
 }
@@ -126,15 +127,18 @@ p {
   justify-content: start;
   align-items: center;
   padding-top: 0;
+  -ms-writing-mode: lr-tb;
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+     
 
 } 
 
  .accordion-content {
     color: #4b2828;
     height: 100%;
-    margin-bottom: -340px;
+    margin-bottom: 0px;
     margin-right: calc(-1 * calc(100% - 497px));
-    padding: 15px;
+    padding: 40px;
     width: calc(100% - 497px);
 } 
 
@@ -220,11 +224,19 @@ display: none !important;
   @media only screen and (max-width: 915px) {
    
 
-    .video {
+  .video {
         display: none;
     }
 
-    .introduction {
+  h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    color:  #333333;
+    font-size: medium !important;
+  }
+
+  .introduction {
       display: none;
     }
 
@@ -237,9 +249,10 @@ display: none !important;
   .accordeon {
     box-sizing: border-box;
     display: flex;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", sans-serif;
     overflow: hidden;
     width: 100%;
+    height: 100%;
   }
   
   .accordeon-select {
@@ -254,7 +267,7 @@ display: none !important;
   }
   
   .accordeon-title:not(:nth-last-child(2))::after {
-    border: 1px solid transparent;
+    border: 0px solid transparent;
     bottom: 0;
     content: "";
     left: 0;
@@ -288,9 +301,8 @@ display: none !important;
   
    .accordeon._mobile {
       border-color: #dedede;
-      border-radius: 8px;
       border-style: solid;
-      border-width: 1px;
+      border-width: 0px;
       flex-direction: column;
       height: auto;
   } 
@@ -301,6 +313,8 @@ display: none !important;
       width: 100%;
       height: 30px;
       font-size: 16px;
+      font-weight: bold;
+      color: #312c2c;
   }
   
   ._mobile .accordeon-select {
@@ -339,7 +353,7 @@ display: none !important;
   color: black;
   }
   .day1title {
-  background-color: #A4D8E1; 
+  background-color: #245E7D; 
   color: white;
   }
   
@@ -349,7 +363,7 @@ display: none !important;
   color: black;
   }
   .day2title {
-  background-color: #A2D5AB;
+  background-color:  #4A7F60;
   color: white;
   }
   
@@ -359,7 +373,7 @@ display: none !important;
   color: black;
   }
   .day3title {
-  background-color: #F6D6A8;
+  background-color: #A3D6D3;
   color: white;
   }
   
@@ -369,7 +383,7 @@ display: none !important;
   color: black;
   }
   .day4title {
-  background-color: #FF9B8C;
+  background-color: #78CAC6;
   color: white;
   }
   
@@ -379,7 +393,7 @@ display: none !important;
   color: black;
   }
   .day5title {
-  background-color: #D81E5B; 
+  background-color:  #FF8866; 
   color: white;
   }
   
@@ -389,18 +403,19 @@ display: none !important;
   color: black;
   }
   .day6title {
-  background-color: #E4B7E5; 
+  background-color: #FFE1D6; 
   color: white;
   }
   
   /* Jour 7 */
   .day7 {
   background-color: white; 
-  color: black;
+  color:  #333333;
+
   }
   .day7title {
-  background-color: #E8D5B1 ; 
-  color: #ffffff;
+  background-color: #F6D365; 
+  color:  #333333;
   }
   
 
