@@ -53,7 +53,7 @@ a {
     text-decoration: none;
 }
 
-a:visited {
+a {
     color: var(--color-jaune_pastel);
 }
 
