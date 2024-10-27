@@ -9,6 +9,7 @@
     --color-vert_foncé: #E0E5B6;
     --color-beige: #FAEDCE;
     --color-jaune_pastel: #FEFAE0;
+    --color-orange: #f47a42;
 
     --color-white: #fff;
     --color-black: #000;
@@ -31,7 +32,7 @@
     justify-content: center;
     text-align: center;
     flex-wrap: wrap;
-    background-color: #ff874f;
+    background-color: var(--color-orange);
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
     color: #07778b;
     /* position: fixed;
@@ -52,7 +53,7 @@ a {
     text-decoration: none;
 }
 
-a:visited {
+a {
     color: var(--color-jaune_pastel);
 }
 
@@ -84,24 +85,24 @@ a:hover {
 
 /*Pour le footer*/
 
-footer{
+footer {
     padding: 20px;
     background-color: #f47a42;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    
+
 }
 
-footer img{
+footer img {
     width: 100px;
     height: 100px;
 }
 
-.children-logo{
+.children-logo {
     display: flex;
     justify-content: space-between;
 }
 
-footer h1{
+footer h1 {
     width: 100%;
     padding: 10px;
     text-align: center;
@@ -111,24 +112,24 @@ footer h1{
 }
 
 
-.logoM{
+.logoM {
     margin-left: 270px;
 }
 
-.logoY{
+.logoY {
     margin-right: 150px;
 }
 
-.github{
+.github {
     display: flex;
-    justify-content: center ;
+    justify-content: center;
 }
 
-.github img{
+.github img {
     width: 30px;
     height: 30px;
 }
 
-.logo-github{
+.logo-github {
     padding-top: 35px;
 }
