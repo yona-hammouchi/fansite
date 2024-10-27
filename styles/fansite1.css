@@ -3,7 +3,7 @@
 
 body {
     font-family: "Poppins", sans-serif;
-    background-color: #f9eeb8;
+    background-color: rgb(255, 204, 102);
 }
 
 h1 {
@@ -26,7 +26,39 @@ p {
 }
 
 
+.actu {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin: 0px;
+  background: rgb(255,149,149);
+  background: -moz-linear-gradient(0deg, rgba(255,149,149,1) 0%, rgba(255,204,102,1) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(255,149,149,1) 0%, rgba(255,204,102,1) 100%);
+  background: linear-gradient(0deg, rgba(255,149,149,1) 0%, rgba(255,204,102,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff9595",endColorstr="#ffcc66",GradientType=1);
+}
+
+
+.actu h2 {
+
+  padding: 20px;
+  margin: 20px;
+  justify-content: center;
+}
+.flux {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+
 @media (min-width: 916px) {
+ 
+img {
+    max-width: 200px;
+    height: 145px;
+} 
 .accordion {
   box-sizing: border-box;
   display: flex;
@@ -34,7 +66,7 @@ p {
   overflow: hidden;
   width: 100%;
   max-height: 800px;
- 
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
  
 }
 
@@ -43,7 +75,7 @@ p {
   margin: 0;
   opacity: 0;
   z-index: 1;
-  width: 100%;
+
 }
 
 .accordion-title {
@@ -52,8 +84,11 @@ p {
   position: relative;
   align-items: end;
   font-weight: bolder;
-  font-size: 40px !important;
+  font-size: 35px !important;
   padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px !important;
+
+  
 
 }
 
@@ -65,17 +100,16 @@ p {
   position: absolute;
   right: 0;
   top: 0;
+  
 }
 
 .accordion-title span {
-  
-  transform: rotate(-90deg); 
+  bottom: 20px;
   box-sizing: border-box;
   display: block;
   position: absolute;
   white-space: nowrap;
   width: 100%;
- 
 
 }
 
@@ -84,7 +118,6 @@ p {
   overflow: auto;
   position: relative;
   transition: margin 0.3s ease 0.1s;
-  width: 100%;
 }
 
 .accordion-select:checked + .accordion-title + .accordion-content {
@@ -99,20 +132,21 @@ p {
     border-style: solid;
     border-width: 0px;
     flex-direction: row;
-    height: 1050px;
+    height: 800px;
+    width: 100%;
 } 
 
  .accordion-title,
 .accordion-select  {
     
-    width: 70px;
+    width: 75px;
     height: 100%;
     font-size: 20px;
 }
 
 .accordion-select {
-    margin-bottom: -65px;
-    margin-right: -71px;
+    margin-bottom: -70px;
+    margin-right: -75px;
 }
 
 .accordion-title:not(:nth-last-child(2))::after {
@@ -123,12 +157,14 @@ p {
 
 
 .accordion-title span  {
+  transform: rotate(-90deg); 
+  -ms-writing-mode: lr-bt;
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   display: flex;
   justify-content: start;
   align-items: center;
   padding-top: 0;
-  -ms-writing-mode: lr-tb;
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+  
      
 
 } 
@@ -290,6 +326,13 @@ display: none !important;
     overflow: auto;
     position: relative;
     transition: margin 0.3s ease 0.1s;
+  }
+
+  .accordion-content {
+    display: none;
+  }
+  input:checked + .accordion-title + .accordion-content {
+    display: block;
   }
   
   .accordeon-select:checked + .accordeon-title + .accordeon-content {
