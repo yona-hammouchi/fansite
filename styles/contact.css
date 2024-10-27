@@ -1,1 +1,40 @@
 @import url("../globals.css");
+
+.content_contact {
+    padding: 100px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.fix_c {
+    background-color: var(--color-white);
+    border-radius: 16px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 60px;
+}
+
+.content_contact h1 {
+    width: 100%;
+    text-align: center;
+    font-family: var(--font-main);
+    margin-bottom: 30px;
+}
+
+.content_contact input {
+    width: 100%;
+    padding: 15px 20px;
+    border-radius: 54px;
+    border: 2px solid var(--color-orange);
+    margin: 15px 0;
+}
+
+.content_contact button {
+    padding: 15px 40px;
+    border-radius: 54px;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+}
