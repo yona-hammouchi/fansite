@@ -1,5 +1,39 @@
 @import url("../globals.css");
 
+@media  screen and (max-width : 1024px) {
+
+    .photo-ronde{
+        display: flex;
+        flex-direction: column;
+    }
+    
+.galerie{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+   }
+    
+.article3{
+    align-items: center;
+    height: 100%;
+    margin-left: 20%;
+}
+   
+
+    .culture{
+        flex-direction: column-reverse;
+    }
+
+    .video{
+        flex-direction: column;
+    }
+    
+
+
+
+    
+}
 
 body {
     background-color: white;
@@ -9,7 +43,10 @@ body {
     font-weight: bold;
 }
 
+
+
 .img-japon {
+    width: 100% ;
     display: flex;
     margin: 0% auto;
 }
@@ -36,10 +73,10 @@ body {
 
 
 .article2{
-    margin-left: 100px;
+    margin-left: 10px;
     padding-top: 150px;
-    width: 500px;
-    height: 700px;
+    width: 90%;
+    height: 120%;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 
@@ -52,8 +89,8 @@ body {
 
 .article3{
     padding: 10px;
-    width: 500px;
-    height: 800px ;
+    width: 50%;
+    height: 100% ;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     background-image: url(../assets/fansite2/background.png);
@@ -64,9 +101,9 @@ body {
 
 .temple{
     padding-right: 20px;
-    margin-left: 50px;
-    width: 900px;
-    height: 800px ;
+    margin-left: 20px;
+    width: 50%;
+    height: 100% ;
 }
 
 .culture{
@@ -76,10 +113,10 @@ body {
 
 .article4{
     background-color: white;
-    width: 500px;
-    height: 600px;
+    width: 100%;
+    height: 100%;
     margin-bottom: 50px;
-    margin-left: 50px;
+    margin-left: 20px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     text-align: left;
     
@@ -89,16 +126,15 @@ body {
 
 .article1{
     padding: 30px;
-    width: 1300px;
-    height: 500px;
-   margin-left: 100px;
+    width: 100%;
+    height: 100%;
+   flex-wrap: wrap;
    
 }
 
 .article2,
 .article4{
     padding: 10px;
-    width: 1000px;
     border-radius: 15px;
     background-image: url(../assets/fansite2/background.png);
    background-position: center;
@@ -117,6 +153,7 @@ padding-bottom: 30px;
 
 .photo-ronde{
    display: flex;
+   flex-direction: column;
    
 }
 .photo-ronde img{
@@ -124,19 +161,22 @@ padding-bottom: 30px;
     width: 150px;
 }
 
-
 .galerie0{
-    border-top-left-radius: 10px;
+    margin-left: 10px;
+    border-top-left-radius: 5px;
 }
 
 .galerie2{
-    border-bottom-left-radius: 10px;
+    border-top-right-radius: 5px;
 }
 
+
 .galerie{
+    width: 90%;
     display: flex;
-    flex-direction: column;
-    gap: 3em;
+    flex-direction: row;
+    justify-content: space-between;
+    
 }
 h1{
         font-family: "Anton", sans-serif;
