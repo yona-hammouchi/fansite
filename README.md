@@ -14,9 +14,4 @@ In this repository you have:
 
 # Some previews
 
-<details>
-  <summary>Web - Desktop (click me) 💻</summary>
-  <img width="600" alt="img" src="doc/readme/acc1.png">
 
-  <img width="600" alt="img" src="doc/readme/acc7.png">
-</details>
