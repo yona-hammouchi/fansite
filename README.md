@@ -2,7 +2,7 @@
 Project Overview
 
 
-TravelFix is a website dedicated to travel enthusiasts, created by three friends: Olivia, Marvin, and Yona. Each of us has chosen to share our love for a country close to our hearts: Guadeloupe, Japan, and Greece. This project was developed as part of our web development studies.
+TravelFix est un site web dédié aux passionnés de voyages, créé par trois amis : Olivia, Marvin et Yona. Chacun de nous a choisi de partager son amour pour un pays cher à son cœur : la Guadeloupe, le Japon et la Grèce. Ce projet a été développé dans le cadre de nos études en développement web.
 
 <br>
 
