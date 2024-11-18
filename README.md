@@ -6,10 +6,11 @@ TravelFix est un site web dédié aux passionnés de voyages, créé par trois a
 
 <br>
 
-In this repository you have:
+Voici ce que comporte le projet:
 
 <ul>
-    <li> home page </li> 
+    <li> Une page d'accueil </li> 
+    <li> Un footer </li>
 <ul>
 
 <br>
@@ -19,9 +20,9 @@ In this repository you have:
 
 <br>
 
-<p align="center">
-Technologies used
-</p>
+<p align="center"> Languages utilisés + supports </p>
+
+<br>
 
 <p align="center">
   <img width="50" alt="img" src="readme/css-3.png">
